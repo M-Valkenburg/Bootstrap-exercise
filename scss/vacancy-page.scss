@@ -1,0 +1,86 @@
+@import "./_config.scss";
+
+/* vacancy page */
+.banner {
+    h2 { color: $white; }
+
+    .title-container {
+        background-color: $green;
+        border-radius: 50px 50px 0px 0px;
+    }
+}
+
+.contact-icons {
+    position: fixed;
+    right: 0;
+
+    .icons-container {
+        background-color: $green;
+        border-radius: 50px 0px 0px 50px;
+    }
+
+    .icon-img {
+        height: 45px;
+        width: 45px;
+        box-shadow: 0px 3px 6px #00000029;
+    }
+
+    .icon { width: 26px; }
+}
+
+.content {
+    .arrow { font: normal normal bold 12px/16px "Roboto Mono"; }
+    .arrow-link { height: 16px; }
+    .function, .contact { box-shadow: 3px 3px 10px #0000001A; }
+
+    .function {
+        h5 { 
+            vertical-align: text-top; 
+            img { width: 30px; height: 30px; }
+        }
+
+        .id-tag {
+            width: 30px;
+            font: normal normal 900 24px/29px "Raleway";
+            color: $green-darker;
+        }
+    }
+
+    .contact {
+        h5 { font: normal normal bold 18px/25px "Raleway"; }
+        p, li, input, textarea { font: normal normal 500 18px/25px "Raleway"; } 
+        ul { list-style: none; padding-left: 0; }
+        textarea { resize: none; }
+        button { width: 100%; }
+
+        input, textarea { 
+            border-color: #EAEAEA;
+            &::placeholder { opacity: 60%; }
+        };
+
+        .btn { 
+            font: normal normal bold 18px/25px "Raleway";
+            box-shadow: 2px 2px 3px #00000029;
+        }
+    }
+
+    .description {
+        ul { 
+            padding-left: 0;
+            text-indent: -.6em;
+            margin-left: .6em;
+        }
+    
+        li {
+            font: normal normal normal 16px/24px "Raleway";
+            list-style: none;
+            
+            &:before {
+                content: "• ";
+                vertical-align: middle;
+            }
+        }
+    
+        a { text-decoration: none; color: $blue; }
+    }
+}

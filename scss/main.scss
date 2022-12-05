@@ -1,0 +1,116 @@
+@import "./config.scss";
+@import "./vacancy-page.scss";
+
+.join-our-team,
+.best-place {
+    p { font: normal normal normal 22px/38px "Raleway"; }
+}
+
+.meet-the-team,
+.vacancies {
+    p { font: normal normal normal 16px/24px "Raleway"; }
+}
+
+.about,
+.perks {
+    p { font: normal normal normal 16px/19px "Raleway"; }
+}
+
+header {
+    position: relative;
+
+    a {
+        font: normal normal bold 18px/21px "Raleway";
+        letter-spacing: 3.6px;
+        text-decoration: none;
+        color: $black;
+
+        &:hover {
+            color: $grey;
+        }
+    }
+}
+
+.hero {
+    .card {
+        transition: ease-out .2s;
+
+        &:hover {
+            transform: translateY(-10px);
+        }
+    }
+
+    .card-body {
+        h4 { height: 52px; }
+        div:not(:last-of-type) { font: normal normal bold 14px/16px "Raleway"; }
+        p:last-of-type{ font: normal normal normal 14px/24px "Raleway"; }
+    
+        img { height: 20px; }
+    }
+}
+
+.search {
+    form {
+        background: $green;
+
+        input, select { 
+            font: normal normal normal 16px/19px "Raleway";
+            letter-spacing: 0.8px;
+        }
+
+        .btn {
+            font: normal normal bold 16px/19px "Raleway";
+            letter-spacing: 0.8px; 
+        }
+    }
+}
+
+.join-our-team {
+    .img-container {
+        position: relative;
+
+        img:first-of-type {
+            position: relative;
+        }
+    
+        img:last-of-type {
+            position: absolute;
+            right: 0;
+            bottom: -10%;
+        }
+    }
+}
+
+.perks {
+    h5 { font: normal normal normal 22px/38px "Raleway"; }
+}
+
+.meet-the-team {
+    span { font: normal normal normal 14px/24px "Raleway"; }
+}
+
+.vacancies {
+    .icon { height: 26px; }
+}
+
+footer {
+    background: linear-gradient($blue-light 0%, $blue-dark 100%);
+    color: $white;
+
+    h5 { font: normal normal bold 16px/19px "Raleway"; }
+
+    p { 
+        font: normal normal normal 12px/14px "Raleway";
+        padding-bottom: 4px;
+    }
+
+    .footnote {
+        height: 20px;
+        background: $green;
+
+        p { 
+            font: normal normal bold 10px/20px "Raleway";
+            padding-bottom: 0;
+        }
+    }
+}

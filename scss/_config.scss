@@ -1,0 +1,71 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/* variables */
+$black: #222;
+$white: #FFF;
+$grey: #707070;
+$green: #ABDA36;
+$green-darker: #8CC63F;
+$blue: #1992DD;
+$blue-light: #30A2DB;
+$blue-dark: #2159A7;
+
+/* elements */
+body { color: $black; }
+
+h1 {
+    font: normal normal bold 90px/106px "Raleway";
+    color: $white;
+    text-shadow: 0px 3px 6px #00000029;
+}
+
+h2 { font: normal normal bold 32px/37px "Raleway"; }
+h3 { font: normal normal bold 26px/30px "Raleway"; }
+h4 { font: normal normal bold 22px/26px "Raleway"; }
+h5 { font: normal normal bold 18px/21px "Raleway"; }
+h6 { font: normal normal bold 16px/24px "Raleway"; }
+
+/* Bootstrap */
+.active {
+    color: $grey;
+    border-bottom: 4px solid $blue;
+    padding-bottom: 8px;
+}
+
+.btn {
+    background-image: linear-gradient(to right, $blue-light 0%, $blue-dark 100%);
+    color: $white;
+}
+
+/* custom */
+.green { color: $green; }
+.green-darker { color: $green-darker; }
+.blue { color: $blue; }
+
+.arrow-link {
+    font: normal normal bold 16px/21px "Roboto Mono";
+    color: $blue;
+}
+
+/* svg */
+.icon { 
+    filter: invert(85%) sepia(94%) saturate(433%) hue-rotate(17deg) brightness(89%) contrast(92%); 
+    vertical-align: bottom;
+}
+
+.icon-dark {
+    filter: invert(75%) sepia(8%) saturate(3306%) hue-rotate(42deg) brightness(98%) contrast(80%);
+    vertical-align: middle;
+}
+
+.arrow {
+    filter: invert(47%) sepia(83%) saturate(1953%) hue-rotate(176deg) brightness(91%) contrast(90%);
+    height: 18px;
+    vertical-align: bottom;
+}
+
+.social {
+    filter: invert(100%) sepia(62%) saturate(0%) hue-rotate(213deg) brightness(113%) contrast(100%);
+    vertical-align: bottom;
+    height: 20px;
+}
