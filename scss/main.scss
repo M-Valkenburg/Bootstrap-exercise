@@ -34,6 +34,7 @@ header {
 .hero {
     .card {
         transition: ease-out .2s;
+        cursor: pointer;
 
         &:hover {
             transform: translateY(-10px);
