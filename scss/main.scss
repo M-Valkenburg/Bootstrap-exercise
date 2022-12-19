@@ -45,7 +45,6 @@ header {
         h4 { height: 52px; }
         div:not(:last-of-type) { font: normal normal bold 14px/16px "Raleway"; }
         p:last-of-type{ font: normal normal normal 14px/24px "Raleway"; }
-    
         img { height: 20px; }
     }
 }
@@ -53,6 +52,7 @@ header {
 .search {
     form {
         background: $green;
+        border-radius: 50px;
 
         input, select { 
             font: normal normal normal 16px/19px "Raleway";
@@ -91,7 +91,9 @@ header {
 }
 
 .vacancies {
-    .icon { height: 26px; }
+    h5 { 
+        img { height: 26px; width: 26px; }
+    }
 }
 
 footer {
@@ -106,7 +108,6 @@ footer {
     }
 
     .footnote {
-        height: 20px;
         background: $green;
 
         p { 

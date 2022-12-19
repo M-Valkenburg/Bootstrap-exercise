@@ -25,6 +25,15 @@ h4 { font: normal normal bold 22px/26px "Raleway"; }
 h5 { font: normal normal bold 18px/21px "Raleway"; }
 h6 { font: normal normal bold 16px/24px "Raleway"; }
 
+a { 
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover { 
+        color: $green-darker 
+    };
+}
+
 /* Bootstrap */
 .active {
     color: $grey;

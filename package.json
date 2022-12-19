@@ -12,6 +12,13 @@
     "bootstrap": "^5.2.3",
     "sass": "^1.56.1"
   },
-  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M-Valkenburg/Bootstrap-exercise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/M-Valkenburg/Bootstrap-exercise/issues"
+  },
+  "homepage": "https://github.com/M-Valkenburg/Bootstrap-exercise#readme",
   "description": ""
 }

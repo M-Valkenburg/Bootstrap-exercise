@@ -10801,6 +10801,14 @@ h6, .h6 {
   font: normal normal bold 16px/24px "Raleway";
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: #8CC63F;
+}
+
 /* Bootstrap */
 .active {
   color: #707070;
@@ -21656,6 +21664,14 @@ h6, .h6 {
   font: normal normal bold 16px/24px "Raleway";
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: #8CC63F;
+}
+
 /* Bootstrap */
 .active {
   color: #707070;
@@ -21830,6 +21846,7 @@ header a:hover {
 
 .hero .card {
   transition: ease-out 0.2s;
+  cursor: pointer;
 }
 .hero .card:hover {
   transform: translateY(-10px);
@@ -21849,6 +21866,7 @@ header a:hover {
 
 .search form {
   background: #ABDA36;
+  border-radius: 50px;
 }
 .search form input, .search form select {
   font: normal normal normal 16px/19px "Raleway";
@@ -21879,8 +21897,9 @@ header a:hover {
   font: normal normal normal 14px/24px "Raleway";
 }
 
-.vacancies .icon {
+.vacancies h5 img, .vacancies .h5 img {
   height: 26px;
+  width: 26px;
 }
 
 footer {
@@ -21895,7 +21914,6 @@ footer p {
   padding-bottom: 4px;
 }
 footer .footnote {
-  height: 20px;
   background: #ABDA36;
 }
 footer .footnote p {
